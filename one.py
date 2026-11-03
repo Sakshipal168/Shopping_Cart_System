@@ -1,13 +1,21 @@
-"""
-PS 7 - Shopping Cart System
-Console-based shopping cart: view products, add/remove items, and
-generate a final bill with discount and GST.
-"""
+# ==============================================================
+#              SHOPPING CART SYSTEM
+# ==============================================================
+
+# Student Name          : SAKSHI PAL
+# ERP ID                : RU-26-01124
+# Course                : BCA
+# Programming Language  : Python 3
+# Project Number        : PS No. 07
+# Project Description   : Developed a console shopping cart where the user can view product, add or remove item 
+#                         and generate a final bill wih discount and GST.
+#
+# =============================================================="""
 
 # Product catalogue (dictionary)
 PRODUCTS = {"Pen": 10, "Notebook": 50, "Bag": 500}
 
-GST_RATE = 0.18          # 18% GST  
+GST_RATE = 0.18          # 18% GST
 DISCOUNT_RATE = 0.10     # 10% discount
 DISCOUNT_LIMIT = 500     # discount applies if subtotal is more than this
 
@@ -110,7 +118,7 @@ def checkout():
     print("================================")
     cart.clear()
 
-
+2
 def read_quantity():
     """Read an integer quantity from the user; return None if not a number."""
     try:
